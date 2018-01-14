@@ -1,0 +1,25 @@
+body {
+  background-color: #fff;
+  font-family: Optima, sans-serif;
+}
+body .header {
+  position: relative;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  border-bottom: 1px solid #4f4f4f;
+  box-sizing: border-box;
+}
+body .header .name-wrapper {
+  height: 100%;
+  flex-grow: 1;
+  text-align: center;
+}
+body .header .name-wrapper .name {
+  padding: 15px;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}

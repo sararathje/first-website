@@ -1,0 +1,30 @@
+// Currently only one style file because we simple-ass bitches
+// Until you learn it, this will run your watch on the stylus file
+// stylus -w test_style.styl
+@require "colours.styl"
+
+body
+	background-color: main-background-colour
+	// font-family: Century Schoolbook
+	font-family: Optima, sans-serif
+	
+	.header
+		position: relative
+		display: flex
+		height: 70px
+		justify-content: center
+		border-bottom: 1px solid title-colour
+		box-sizing: border-box
+		
+		.name-wrapper
+			height: 100%
+			flex-grow: 1
+			text-align: center
+			
+			.name
+				padding: 15px
+				margin: 0px
+				font-size: 30px
+				font-weight: bold
+				text-transform: uppercase
+				color: title-colour
